@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale= 0.9" />
+    <title>move and draw</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="content">
+      <h1>draw</h1>
+      <br />
+      <div id="sketchPadContainer"></div>
+    </div>
+
+    <script src="js/sketchPad.js"></script>
+    <script src="js/draw.js"></script>
+    <script>
+      const container = document.getElementById("sketchPadContainer");
+      const sketchPad = new SketchPad(container);
+    </script>
+  </body>
+</html>
